@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments (Cea mai importantă parte!)
+venv/
+env/
+ENV/
+.env
+
+# PyCharm / IntelliJ settings
+.idea/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Databases (dacă ai baze de date locale care nu trebuie urcate)
+*.sqlite3
+*.db

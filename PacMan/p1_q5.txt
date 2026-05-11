@@ -1,0 +1,14 @@
+- we also need to define the heuristic
+- the pacman needs to reach all the corners
+- THE SHORTEST PATH THAT REACHES ALL OF THE CORNERS
+- (for tinyMaze) the shortest path might not reach the closest food first
+- will be using bfs
+- CHOOSE A STATE REPRESENTATION THAT ENCODES ALL THE INFORMATION NECESSARY TO DETECT WHETHER ALL FOUR CORNERS HAVE BEEN REACHED
+
+
+- ajungem la un colt - acesta devine punct de plecare spre urmatorul colt
+- isGoalState = doar daca s-a ajuns si la ultimul colt
+
+- scriu functia pentru start -> trebuie sa NU contina: pozitia fantomelor, pozitia extra food etc. (v)
+- scriu functia pentru succesori
+- scriu functia pentru isGoalState
